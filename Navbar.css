@@ -1,0 +1,31 @@
+/*Removes the bulletpoint from the text. changes the position, background colour, font and length of the text*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 97.1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Lists items of text from left to right instead of top to bottom */
+li 
+{
+    float: left
+}
+/*Changes how the text is rendered. Sets the colour, text alignment, spacing and removes any text decorations*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*Changes both the background colour and the text colour when the cursor hovers over the listed items*/
+li a:hover {
+    background-color: #111;
+    color:rgb(0, 132, 255) 
+}
+
+  

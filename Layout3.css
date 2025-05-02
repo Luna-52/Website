@@ -1,0 +1,199 @@
+/*Sets text alignment, spacing, font, colour and position of the header */
+.header
+{
+    text-align: center;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ebebeb;
+    margin: 40px 375px 0px;
+}
+/*Background colour of the body */
+body
+{
+    background-color: #202020;
+}
+/*Sets the length, height and colour of the horizontal line */
+.custom-line 
+{
+    height: 1px;
+    background-color: #ebebeb;
+    margin: 0% 21% 0%;
+}
+
+.custom-line-1
+{
+    height: 1px;
+    background-color: #ebebeb;
+    margin: 5% 21% 0%;
+}
+/*Position and length of the middle column. Any paragraphs, images, headings, etc will be contained within the middle column*/
+.middle.column
+{
+width: 50%;
+margin: 0% 21.25% 0%
+}
+/*Sets the length, height, and position of the flexbox*/
+.select-1 
+{
+    width: 114%;
+    height: 250px;
+    margin: 5% 0% 0%;
+    display: flex;
+}
+/*Sets the background colour, length and height of anything that is contained within the div tag*/
+.select-1 div
+{
+    background-color: #333;
+    width: 114%;
+    height: 250px;
+}
+/*Changes the length and height of image in div tag */
+.select-1 div img
+{
+    width: 50%;
+    height: 100%;
+}
+
+/*Changes the text alignment, font size and family, and position of header 2 in div tag*/
+.select-1 div h2
+{
+    text-align: left;
+    font-size: 115%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3% -45% 0%;
+}
+/*Changes text alignment, font size and family, and position of the paragraph in the div tag*/
+.select-1 div p
+{
+    text-align: left;
+    font-size: 115%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1.5% -45% 0%;
+}
+
+.select-2 
+{
+    width: 114%;
+    height: 250px;
+    margin: 1% 0% 0%;
+    display: flex;
+}
+
+.select-2 div
+{
+    background-color: #333;
+    width: 114%;
+    height: 250px;
+}
+
+.select-2 div img
+{
+    width: 50%;
+    height: 100%;
+}
+
+.select-2 div h2
+{
+    text-align: left;
+    font-size: 115%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3% -45% 0%;
+}
+
+
+.select-2 div p
+{
+    text-align: left;
+    font-size: 115%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1.5% -45% 0%;
+}
+
+.select-3
+{
+    width: 114%;
+    height: 250px;
+    margin: 1% 0% 0%;
+    display: flex;
+}
+
+.select-3 div
+{
+    background-color: #333;
+    width: 114%;
+    height: 250px;   
+}
+
+.select-3 div img
+{
+    width: 50%;
+    height: 100%;
+}
+
+.select-3 div h2
+{
+    text-align: left;
+    font-size: 115%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3% -45% 0%;
+}
+
+.select-3 div p
+{
+    text-align: left;
+    font-size: 115%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1.5% -45% 0%;
+}
+
+.select-4 
+{
+    width: 114%;
+    height: 250px;
+    margin: 1% 0% 0%;
+    display: flex;
+}
+
+.select-4 div
+{
+    background-color: #333;
+    width: 114%;
+    height: 250px;      
+}
+
+.select-4 div img
+{
+    width: 50%;
+    height: 100%;
+}
+
+.select-4 div h2
+{
+    text-align: left;
+    font-size: 115%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3% -45% 0%;
+}
+
+.select-4 div p
+{
+    text-align: left;
+    font-size: 115%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1.5% -45% 0%;
+}  
+/*Colour of paragraphs*/
+p
+{
+    color: #ebebeb;
+}
+/*Colour of header 2*/
+h2
+{
+    color: #ebebeb;
+}
+/*position of footer*/
+.footer
+{
+    margin: 100px 50px 0px  
+}

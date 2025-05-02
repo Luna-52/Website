@@ -1,0 +1,33 @@
+/* Sets the length, position, spacing font, border and grid layout of text box  */
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 1% 23.85% 0%;
+    display: inline-block;
+    border: none
+ }
+/* Sets the overall size, height, font and position of the text box */
+textarea
+{
+    margin: 1% 23.85% 0%;
+    height: 200px;
+    width: 51.8%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Sets the length, background colour, spacing, position and border of submit button */
+  input[type=submit] {
+    width: 52.3%;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    padding: 14px 20px;
+    margin: 1% 23.85% 0%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+/*Changes background colour of submit button when the cursor hovers over it */  
+  input[type=submit]:hover {
+    background-color: #5177a1;
+  }
+  
+  

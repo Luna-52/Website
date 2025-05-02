@@ -1,0 +1,46 @@
+/*Connects the link to contact page to the button. Sets grid layout, border, background colour, text colour, text alignment, spacing length, transition and position of the button */
+a.button 
+{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(0, 132, 255);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 2% 0% 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Sets the animation for the button */
+.button span 
+{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+/*Will change the look of the button when the cursor hovers over it */
+.button span:after 
+{
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+/*Moves the text when the cursor is hovering over the button*/ 
+.button:hover span 
+{
+    padding-right: 25px;
+}
+/*Changes opacity*/
+.button:hover span:after 
+{
+    opacity: 1;
+    right: 0;
+}

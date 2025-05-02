@@ -1,0 +1,19 @@
+/*Sets the colour, position and font of header 1*/
+h1
+{
+    color: #ebebeb;
+    margin: 200px 400px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Sets the colour, position and font of header 2*/
+h2
+{
+    color: #ebebeb;
+    margin: 0px 400px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Background colour of the body */
+body
+{
+    background-color: #202020;
+}
